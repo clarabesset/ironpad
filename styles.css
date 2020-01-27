@@ -1,0 +1,136 @@
+/***************************
+****************************
+Use your keyboard keys to play
+
+QWERTYASDF
+
+****************************
+***************************/
+
+@import url('https://fonts.googleapis.com/css?family=Six+Caps&display=swap');
+
+* {
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+     box-sizing:border-box;
+ }
+ 
+ body {
+   background-color:#EFAA55;
+   color:#bbb;
+   font-family:Arial,sans-serif;
+   font-size:16px;
+   text-align:center;
+   height: 100vh;
+   width: 100vw;
+ }
+ 
+ body h4 {
+   color:#61636D;
+ }
+
+ main {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -50px;
+ }
+
+ .mainpart {
+   display: flex;
+   flex-direction: row;
+   height: 90%;
+ }
+
+  .logos {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   height: 15%;
+   justify-content: flex-end;
+ }
+
+ .ironhack {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 60px;
+  color: white;
+  margin: 0;
+ }
+ 
+ #lnpad {
+   height: 530px;
+   width: 430px;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .circle_wrap {
+   position: relative;
+   font-size: 13px;
+   color: white;
+   margin-top: 30px;
+ }
+
+ .circle {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  padding: 15px;
+  background: #7D7E88;
+}
+
+ .novation_logo {
+   position: absolute;
+   bottom: 7px;
+   width: 110px;
+   left: 22px;
+ }
+ .right_cont {
+   width: 10%;
+   height: 500px;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .ironLogo {
+   position: relative;
+   width: 60px;
+   margin: 0 32px;
+ 
+ }
+
+ #pads {
+   position:relative;
+   width:100%;
+   height: 70%;
+ }
+
+ .module {
+   background-color:#61636d80;
+   -moz-border-radius:.5em;
+   -webkit-border-radius:.5em;
+   -o-border-radius:.5em;
+   border-radius:.5em;
+   padding:1.25em .9375em;
+ }
+
+ .pad {
+   background-color:#bbb;
+   -moz-border-radius:5px;
+   -webkit-border-radius:5px;
+   -o-border-radius:5px;
+   border-radius:5px;
+   cursor:pointer;
+   float:left;
+   width: 90px;
+   height: 90px;
+   margin:.3125em;
+ }
+
+ .pad:active {
+   background-color: #32C3FF;
+ }
